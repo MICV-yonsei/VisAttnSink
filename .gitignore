@@ -66,5 +66,4 @@ answers/
 !env_pip.txt
 !README.md
 llava/serve/
-**.sh
 
