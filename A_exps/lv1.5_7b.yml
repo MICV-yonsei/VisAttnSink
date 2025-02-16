@@ -1,0 +1,18 @@
+name_exp: lv1.5_7b
+name_daset: YOUR_DATASET_NAME
+name_category: YOUR_CATEGORY_NAME
+
+path_image_dir: YOUR_PATH_TO_IMAGE_DIR
+path_question_dir: YOUR_PATH_TO_QUESTION_DIR
+path_model: YOUR_PATH_TO_MODEL
+
+conv_mode: vicuna_v1
+
+logic: 1
+tau: 20
+rho: 0.5
+p: 0.6
+summ: 0.2
+
+max_new_tokens: 128
+except_last_layer: 1

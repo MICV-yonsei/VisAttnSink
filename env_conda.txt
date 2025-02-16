@@ -1,0 +1,15 @@
+name: VisAttnSink
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python==3.11
+  - torchaudio
+  - pytorch
+  - pytorch-cuda=12.1
+  - torchvision
+  - pandas
+  - numpy
+  - huggingface_hub
+  - ipykernel
+  - pip

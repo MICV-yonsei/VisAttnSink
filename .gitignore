@@ -1,0 +1,70 @@
+# pt file
+*.pt
+*.pth
+*.pkl
+*.parquet
+
+# zip file
+*.zip
+
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+*.ipynb
+
+# Log
+*.log
+*.log.*
+*.json
+*.jsonl
+*.csv
+*.tsv
+*.xlsx
+
+# webp
+*.webp
+
+# Data
+**.cache**
+
+# Editor
+.idea
+*.swp
+
+# Other
+.huggingface
+.DS_Store
+wandb
+output
+checkpoints
+ckpts*
+.ipynb_checkpoints
+.vscode
+results/*
+**eval_gpt.ipynb**
+
+# DevContainer
+!.devcontainer/*
+
+# Demo
+serve_images/
+
+# My
+daset/
+Versatile/
+LlavaArtifact/
+answers/
+**.ipynb
+**/README.md
+**.pkl
+**.csv
+**.xlsx
+**.txt
+!env_conda.txt
+!env_pip.txt
+!README.md
+llava/serve/
+**.sh
+
